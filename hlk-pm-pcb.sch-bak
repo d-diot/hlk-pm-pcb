@@ -152,8 +152,29 @@ $EndComp
 Wire Wire Line
 	6250 4150 6800 4150
 Wire Wire Line
-	6100 3850 6300 3850
-Wire Wire Line
-	6600 3850 6800 3850
+	6600 3850 6650 3850
 Connection ~ 6800 3850
+$Comp
+L Jumper:Jumper_2_Open JP1
+U 1 1 61DC0416
+P 6450 3400
+F 0 "JP1" H 6450 3635 50  0000 C CNN
+F 1 "Fuse Bypass" H 6450 3544 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 6450 3400 50  0001 C CNN
+F 3 "~" H 6450 3400 50  0001 C CNN
+	1    6450 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 3400 6250 3850
+Wire Wire Line
+	6100 3850 6250 3850
+Connection ~ 6250 3850
+Wire Wire Line
+	6250 3850 6300 3850
+Wire Wire Line
+	6650 3400 6650 3850
+Connection ~ 6650 3850
+Wire Wire Line
+	6650 3850 6800 3850
 $EndSCHEMATC
